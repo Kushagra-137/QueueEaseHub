@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - QueueEaseHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>QueueEase<span>Hub</span></h1>
+        <nav>
+            <a href="dashboard.html">Home</a>
+            <a href="services.html" class="active">Services</a>
+            <a href="dashboard.html#my-ticket">My Ticket</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="clinic" class="card">
+            <h2>🏥 Clinic</h2>
+            <p>Dr. Sharma: <span class="ok">On time</span> | Dr. Verma: <span class="late">Running 10 mins late</span></p>
+            <table>
+                <tr><th>Service</th><th>Now Serving</th><th>Next</th><th>Est. Wait</th></tr>
+                <tr><td>OPD Room 1</td><td><mark>P-304</mark></td><td>P-305</td><td>12 mins</td></tr>
+                <tr><td>Pediatrics Room 2</td><td><mark>P-112</mark></td><td>P-113</td><td>5 mins</td></tr>
+                <tr><td>Diagnostic Lab</td><td>Closed</td><td>--</td><td>20 mins</td></tr>
+            </table>
+        </section>
+
+        <section id="salon" class="card">
+            <h2>💇 Salon</h2>
+            <table>
+                <tr><th>Service</th><th>Now Serving</th><th>Next</th><th>Est. Wait</th></tr>
+                <tr><td>Hair Styling</td><td><mark>S-044</mark></td><td>S-045</td><td>10 mins</td></tr>
+                <tr><td>Spa &amp; Facial</td><td><mark>S-019</mark></td><td>S-020</td><td>25 mins</td></tr>
+                <tr><td>Nail Care</td><td>Closed</td><td>--</td><td>15 mins</td></tr>
+            </table>
+        </section>
+
+        <section id="bank" class="card">
+            <h2>🏦 Bank</h2>
+            <table>
+                <tr><th>Service</th><th>Now Serving</th><th>Next</th><th>Est. Wait</th></tr>
+                <tr><td>Cash Counter</td><td><mark>B-102</mark></td><td>B-103</td><td>4 mins</td></tr>
+                <tr><td>Loans Desk</td><td><mark>L-405</mark></td><td>L-406</td><td>18 mins</td></tr>
+                <tr><td>Account Opening</td><td>Closed</td><td>--</td><td>9 mins</td></tr>
+            </table>
+        </section>
+
+        <section id="railway" class="card">
+            <h2>🚆 Railway</h2>
+            <table>
+                <tr><th>Service</th><th>Now Serving</th><th>Next</th><th>Est. Wait</th></tr>
+                <tr><td>General Reservation</td><td><mark>R-210</mark></td><td>R-211</td><td>15 mins</td></tr>
+                <tr><td>Tatkal Booking</td><td><mark>T-056</mark></td><td>T-057</td><td>25 mins</td></tr>
+                <tr><td>Senior Citizen</td><td>Closed</td><td>--</td><td>5 mins</td></tr>
+            </table>
+        </section>
+
+        <section id="movies" class="card">
+            <h2>🎬 Movies</h2>
+            <table>
+                <tr><th>Service</th><th>Now Serving</th><th>Next</th><th>Est. Wait</th></tr>
+                <tr><td>Ticket Counter</td><td><mark>M-120</mark></td><td>M-121</td><td>8 mins</td></tr>
+                <tr><td>Snack Counter</td><td><mark>F-045</mark></td><td>F-046</td><td>10 mins</td></tr>
+            </table>
+            <br>
+            <p>Full price shown before booking:</p>
+            <table>
+                <tr><th>Item</th><th>Price</th><th>Fee</th><th>Tax</th><th>Total</th></tr>
+                <tr><td>Movie Ticket</td><td>Rs. 200</td><td>Rs. 20</td><td>Rs. 40</td><td>Rs. 260</td></tr>
+                <tr><td>Snacks Combo</td><td>Rs. 300</td><td>Rs. 0</td><td>Rs. 15</td><td>Rs. 315</td></tr>
+            </table>
+        </section>
+
+        <section class="card">
+            <h2>Get a Ticket</h2>
+            <form action="dashboard.html#my-ticket">
+                <input type="text" placeholder="Your name">
+                <select>
+                    <option>Clinic</option>
+                    <option>Salon</option>
+                    <option>Bank</option>
+                    <option>Railway</option>
+                    <option>Movies</option>
+                </select>
+                <button type="submit">Generate Ticket</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>

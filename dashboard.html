@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - QueueEaseHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>QueueEase<span>Hub</span></h1>
+        <nav>
+            <a href="dashboard.html" class="active">Home</a>
+            <a href="services.html">Services</a>
+            <a href="#my-ticket">My Ticket</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Announcements</h2>
+            <p>Token B-102, please go to Cash Counter 1. Next: B-103.</p>
+            <p>Token P-304, please enter OPD Room 1. Next: P-305.</p>
+        </section>
+
+        <section class="grid">
+            <a href="services.html#clinic" class="card">🏥 Clinic</a>
+            <a href="services.html#salon" class="card">💇 Salon</a>
+            <a href="services.html#bank" class="card">🏦 Bank</a>
+            <a href="services.html#railway" class="card">🚆 Railway</a>
+            <a href="services.html#movies" class="card">🎬 Movies</a>
+        </section>
+
+        <section id="my-ticket" class="card">
+            <h2>My Ticket</h2>
+            <p>Token: <mark>B-105</mark></p>
+            <p>Service: Bank - Cash Deposit</p>
+            <p>People ahead of you: 3</p>
+            <p>Estimated wait: 12 mins</p>
+        </section>
+
+        <section class="card">
+            <h2>Rate Your Waiting Experience</h2>
+            <form action="#">
+                <select>
+                    <option>5 - Excellent</option>
+                    <option>4 - Good</option>
+                    <option>3 - Average</option>
+                    <option>2 - Poor</option>
+                    <option>1 - Very Poor</option>
+                </select>
+                <textarea rows="3" placeholder="What can we improve?"></textarea>
+                <button type="submit">Submit Review</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
